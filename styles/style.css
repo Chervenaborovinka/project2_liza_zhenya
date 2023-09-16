@@ -167,3 +167,47 @@ a {
     /* 160% */
     letter-spacing: 1.6px;
 }
+
+.container-yellow-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #FFFFEF;
+}
+
+.cards__title {
+    color: #56593D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+    /* 135% */
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #56593D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    /* 135% */
+}
