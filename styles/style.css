@@ -248,50 +248,117 @@ a {
     /* 120.96% */
 }
 
-/*блок 5*/
-.table {
+/*блок 4*/
+.design {
     display: flex;
-    width: 100%;
-    height: 1014px;
-}
-
-.table_block {
-    display: flex;
-    width: 1020pt;
-    height: 1014px;
     flex-direction: column;
-    margin-top: 24px;
-    margin-left: 40px;
+    align-items: center;
+    width: 85em;
+    height: 46.625em;
+    margin: 32px;
     background: #FFFFEF;
 }
 
-.table_block-frame {
+.design_block {
     display: inline-flex;
-    height: 885.609px;
-    padding-left: 0px;
+    width: 81em;
+    height: 38.625em;
+    padding: 64px 32px 64px 32px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 31.656px;
+}
+
+.shelves {
+    display: flex;
+    width: 46.4375em;
+    height: 38.625em;
+    background: url(shelves_main.png), lightgray 50% / cover no-repeat;
+}
+
+.design_block-text {
+    display: flex;
+    width: 521.313px;
+    height: 391px;
+    padding: 62.844px 86.969px 0px 87.344px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+}
+
+.design_block-text-title {
+    display: flex;
+    width: 219px;
+    color: #56593D;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.88px;
+    /* 134.069% */
+}
+
+.linee {
+    display: flex;
+    width: 40px;
+    height: 1px;
+    background: #717353;
+}
+
+.design_block-text-texts {
+    display: flex;
+    width: 347px;
+    color: #56593D;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+    /* 162% */
+}
+
+/*блок 5*/
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85em;
+    height: 63.375em;
+    margin: 32px;
+    background: #FFFFEF;
+}
+
+.table_block {
+    display: inline-flex;
+    width: 81em;
+    height: 55.375em;
+    padding: 64px 32px 64px 32px;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 31.656px;
 
 }
 
-.table_block-frame-text {
+.table_block-text {
     display: flex;
-    width: 521px;
+    width: 521.313px;
     height: 391px;
-    padding: 64.41px 88.344px 0px 88.969px;
+    padding: 62.594px 88.344px 0px 88.969px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 32px;
 }
 
-.title {
+.table_block-text-title {
     display: flex;
     width: 277px;
     color: #56593D;
     text-align: center;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 29px;
     font-style: normal;
     font-weight: 400;
@@ -306,7 +373,7 @@ a {
     background: #717353;
 }
 
-.text {
+.table_block-text-texts {
     display: flex;
     width: 277px;
     color: #56593D;
@@ -319,30 +386,32 @@ a {
     /* 162% */
 }
 
-.table_block-frame-img {
+.table_dishes {
     display: flex;
     width: 743px;
     height: 885px;
+    background: url(table_dishes_main.png), lightgray 50% / cover no-repeat;
 }
 
 /*блок 6*/
 .sign {
     display: flex;
-    width: 100%;
-    height: 279px;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 56px;
+    flex-direction: column;
+    width: 83em;
+    height: 17.4375em;
+    margin: 48px;
+    background: #FFFFEF;
+
 }
 
 .sign_block {
     display: flex;
-    width: 90%;
-    height: 215.188px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background: #FFFFEF;
-    gap: 16px;
+    width: 79em;
+    height: 13.44925em;
+    padding: 32px 432px 32px 32px;
 }
 
 .sign_block-title {
@@ -370,6 +439,30 @@ a {
     line-height: 28.8px;
     /* 169.412% */
 }
+
+button[name="subscribe"] {
+    width: 144px;
+    height: 22px;
+    padding: 10px 25px;
+    background: #56593D;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #FFFFEF;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.72px;
+    /* 151.467% */
+    letter-spacing: 1.6px;
+
+}
+
+button[name="subscribe"]:hover {
+    background: #56593D;
+}
+
 
 /*блок 7*/
 .moments {
