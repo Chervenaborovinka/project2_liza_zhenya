@@ -1,3 +1,4 @@
+/*блок 1 голова*/
 .header__nav {
     border: 1px solid red;
     display: flex;
@@ -32,8 +33,8 @@
     gap: 1em;
 }
 
-
-.container-yellow {
+/*блок 2 голова*/
+.container-yellow { 
     display: flex;
     height: 100vh;
     flex-shrink: 0;
@@ -41,7 +42,12 @@
     margin-right: 32px;
     background: #FFFFEF;
     justify-content: flex-end;
-    background-image: url(../assets/apples_background.png) / cover no-repeat;
+    background-image: url(../assets/apples_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-color: #FFFFEF;
+    border-width: 16px;
 }
 
 .header__text {
@@ -94,6 +100,7 @@
     border-color: #56593D;
 }
 
+/* блок 3 */
 .text-3 {
     display: flex;
     width: 100%;
@@ -165,6 +172,7 @@ a {
     letter-spacing: 1.6px;
 }
 
+/* блок 4 */
 .container-yellow-2 {
     display: flex;
     flex-direction: column;
@@ -212,6 +220,7 @@ a {
     /* 135% */
 }
 
+/* блок 5 */
 .container-yellow-3 {
     display: flex;
     flex-direction: column;
