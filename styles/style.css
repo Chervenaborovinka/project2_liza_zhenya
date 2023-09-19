@@ -30,7 +30,7 @@
 }
 
 /*блок 2 голова*/
-.container-yellow { 
+.container-yellow {
     display: flex;
     height: 100vh;
     flex-shrink: 0;
@@ -264,7 +264,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85em;
+    width: 96%;
     height: 46.625em;
     margin: 32px;
     background: #FFFFEF;
@@ -272,7 +272,7 @@ a {
 
 .design_block {
     display: inline-flex;
-    width: 81em;
+    width: 86%;
     height: 38.625em;
     padding: 64px 32px 64px 32px;
     justify-content: flex-end;
@@ -280,9 +280,13 @@ a {
     gap: 31.656px;
 }
 
+.design_block-img {
+    display: flex;
+}
+
 .shelves {
     display: flex;
-    width: 46.4375em;
+    width: 40em;
     height: 38.625em;
     background: url(shelves_main.png), lightgray 50% / cover no-repeat;
 }
@@ -336,7 +340,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85em;
+    width: 96%;
     height: 63.375em;
     margin: 32px;
     background: #FFFFEF;
@@ -344,7 +348,7 @@ a {
 
 .table_block {
     display: inline-flex;
-    width: 81em;
+    width: 86%;
     height: 55.375em;
     padding: 64px 32px 64px 32px;
     justify-content: flex-end;
@@ -408,9 +412,11 @@ a {
 .sign {
     display: flex;
     flex-direction: column;
-    width: 83em;
+    align-items: center;
+    width: 83%;
     height: 17.4375em;
-    margin: 48px;
+    margin-left: 52px;
+    padding: 20px 80px 20px 80px;
     background: #FFFFEF;
 
 }
@@ -418,11 +424,12 @@ a {
 .sign_block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 79em;
-    height: 13.44925em;
-    padding: 32px 432px 32px 32px;
+    width: 79%;
+    height: 13.4375em;
+    margin: 32px;
+    background: #FFFFEF;
+
 }
 
 .sign_block-title {
@@ -474,26 +481,30 @@ button[name="subscribe"]:hover {
     background: #56593D;
 }
 
-
 /*блок 7*/
 .moments {
     display: flex;
-    width: 100%;
-    height: 520px;
-    margin-top: 40px;
-    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    height: 32.5em;
+    margin: 32px;
+    background: #FFFFEF;
 }
 
 .moments_block {
     display: flex;
-    width: 90%;
-    height: 392px;
     flex-direction: column;
-    padding: 30px 70px;
-    justify-content: center;
     align-items: center;
-    padding: 24px;
+    width: 96%;
+    height: 24.5em;
+    margin: 32px;
     background: #FFFFEF;
+
+}
+
+.moments_block-text {
+    display: flex;
 }
 
 .moments_title {
@@ -511,15 +522,15 @@ button[name="subscribe"]:hover {
 .cards-fruit {
     display: flex;
     height: 328px;
-    padding: 7.797px 0px 0.203px 8px;
-    justify-content: flex-end;
-    align-items: flex-start;
+    padding: 7.797px 0px 0;
+    justify-content: center;
+    align-items: center;
     gap: 8px;
 }
 
-.card-one {
+.cards-all {
     display: flex;
-    width: 320px;
-    height: 320px;
-    background: url(card_1_below.png), lightgray 50% / cover no-repeat;
+    width: 300px;
+    height: 300px;
+
 }
