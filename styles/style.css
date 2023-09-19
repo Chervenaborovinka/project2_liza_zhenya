@@ -177,7 +177,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     flex-shrink: 0;
     margin-left: 32px;
     margin-right: 32px;
@@ -225,11 +225,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     flex-shrink: 0;
     margin-left: 32px;
     margin-right: 32px;
     background: #FFFFEF;
+    background-image: url(../assets/dishes_main.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-color: #FFFFEF;
+    border-width: 16px;
 }
 
 .container__title {
