@@ -1,6 +1,5 @@
 /*блок 1 голова*/
 .header__nav {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,7 +11,6 @@
 }
 
 .header__nav-left {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     gap: 2em;
@@ -20,14 +18,12 @@
 }
 
 .header__logo {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-self: center;
 }
 
 .header__nav-right {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     gap: 1em;
@@ -177,7 +173,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     flex-shrink: 0;
     margin-left: 32px;
     margin-right: 32px;
