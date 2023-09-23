@@ -1,3 +1,11 @@
+@media screen and (max-width: 420px) {
+
+    .header__logo {
+        width: 15px;
+        height: 15px;
+    }
+}
+
 /*блок 1 голова*/
 .header__nav {
     display: flex;
@@ -8,6 +16,11 @@
     padding-left: 3%;
     padding-right: 3%;
     justify-content: space-between;
+}
+
+#zero{
+    margin-left: -1em;
+    margin-bottom: -0.4em;
 }
 
 .header__nav-left {
