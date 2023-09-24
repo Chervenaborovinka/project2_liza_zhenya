@@ -891,9 +891,10 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%;
+    width: 93%;
     height: 32.5em;
     margin: 32px;
+    padding: 20px;
     background: #FFFFEF;
 }
 
@@ -902,9 +903,9 @@ input[type="submit"] {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    width: 96%;
+    width: 93%;
     height: 24.5em;
-    padding: 70px;
+    padding: 20px;
     background: #FFFFEF;
 
 }
@@ -927,13 +928,14 @@ input[type="submit"] {
 
 .moments_block-fruit {
     display: flex;
-    width: 81.5%;
+    width: 50em;
     height: 20.5em;
     padding: 7.797px 0px 0;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
     gap: 8px;
 }
 
