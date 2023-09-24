@@ -900,7 +900,6 @@ input[type="submit"] {
 
 .moments_block {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     width: 93%;
