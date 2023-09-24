@@ -8,7 +8,7 @@
     a.header__link {
         font-size: 10px;
         line-height: 13px;
-        
+
     }
 
     .header__logo {
@@ -21,17 +21,17 @@
 
     .header__nav-left {
         padding-top: 3em;
-        margin-right:50px;        
+        margin-right: 50px;
     }
 
-    .header__arrow{
+    .header__arrow {
         display: none;
     }
 
     .icon {
         width: 15px;
         height: 15px;
-        padding-top: 4em; 
+        padding-top: 4em;
     }
 
     img#zero {
@@ -39,10 +39,6 @@
         height: 15px;
         margin-left: 0.5em;
         margin-top: -18px
-    }
-
-    #zero {
-        
     }
 
     .container-yellow {
@@ -58,7 +54,7 @@
         align-items: center;
         margin-right: 0px;
         margin-bottom: -170px;
-        
+
     }
 
     p.text-1 {
@@ -120,6 +116,223 @@
 
 }
 
+@media screen and (max-width:420px) {
+    div.design {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.design_block {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+    }
+
+    div.design_block-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 60px;
+
+    }
+
+    div.design_block-text-title {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    div.design_block-text-texts {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:800px) {
+    div.design_block-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:420px) {
+    div.table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.table_block {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+    }
+
+    div.table_block-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 60px;
+
+    }
+
+    div.table_block-text-title {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    div.design_block-text-texts {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:800px) {
+    div.table_block-img {
+        display: none;
+    }
+}
+
+/*sign*/
+@media screen and (max-width:420px) {
+    div.sign {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 35em;
+    }
+
+    div.sign_block {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 70px;
+        justify-content: center;
+    }
+
+    div.sign_block-text {
+        display: flex;
+        width: 86%;
+        height: 55.375em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div._block-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 60px;
+
+    }
+
+    div._block-text-title {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    div._block-text-texts {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div.button_sign {
+        display: flex;
+    }
+}
+
+/*moments*/
+@media screen and (max-width:420px) {
+    div.moments {
+        display: flex;
+        flex-wrap: wrap;
+        height: 70em;
+    }
+
+    div.moments_block {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+    }
+
+    div.moments_block-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    div.moments_block-title {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+    div.moments_block-fruit {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
+
+/*footer*/
+@media screen and (max-width:420px) {
+    div.footer_f {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60em;
+    }
+
+    div.footer_f_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 60em;
+    }
+
+    div.author {
+        display: flex;
+        width: 170px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 40px;
+    }
+
+    div.explore {
+        display: flex;
+        width: 170px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 40px;
+    }
+
+    div.help {
+        display: flex;
+        width: 170px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 40px;
+    }
+
+    div.social {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+}
+
 /*блок 1 голова*/
 .header__nav {
     display: flex;
@@ -132,7 +345,7 @@
     justify-content: space-between;
 }
 
-#zero{
+#zero {
     margin-left: -1em;
     margin-bottom: -0.4em;
 }
@@ -386,7 +599,7 @@ a {
     /* 120.96% */
 }
 
-/*блок 4*/
+/*блок 6*/
 .design {
     display: flex;
     flex-direction: column;
@@ -397,8 +610,9 @@ a {
     background: #FFFFEF;
 }
 
+
 .design_block {
-    display: inline-flex;
+    display: flex;
     width: 86%;
     height: 38.625em;
     padding: 64px 32px 64px 32px;
@@ -407,15 +621,19 @@ a {
     gap: 31.656px;
 }
 
+
 .design_block-img {
     display: flex;
+    width: 40em;
+    height: 38.625em;
 }
+
 
 .shelves {
     display: flex;
     width: 40em;
     height: 38.625em;
-    background: url(shelves_main.png), lightgray 50% / cover no-repeat;
+
 }
 
 .design_block-text {
@@ -462,7 +680,7 @@ a {
     /* 162% */
 }
 
-/*блок 5*/
+/*блок 7*/
 .table {
     display: flex;
     flex-direction: column;
@@ -535,7 +753,7 @@ a {
     background: url(table_dishes_main.png), lightgray 50% / cover no-repeat;
 }
 
-/*блок 6*/
+/*блок 8*/
 .sign {
     display: flex;
     flex-direction: column;
@@ -548,6 +766,7 @@ a {
 
 }
 
+
 .sign_block {
     display: flex;
     flex-direction: column;
@@ -559,9 +778,16 @@ a {
 
 }
 
-.sign_block-title {
+.sign_block-text {
     display: flex;
-    width: 319px;
+    flex-direction: column;
+
+}
+
+.sign_block-text-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     color: #56593D;
     text-align: center;
     font-family: "Roboto";
@@ -573,9 +799,9 @@ a {
     padding-bottom: 16px;
 }
 
-.sign_block-text {
+.sign_block-text-texts {
     display: flex;
-    width: 410px;
+    width: 100%;
     color: #56593D;
     text-align: center;
     font-family: "Roboto";
@@ -590,13 +816,14 @@ a {
 .button_sign {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     background: #FFFFEF;
-    width: 500px;
+    width: 65%;
     height: 37px;
     border: none;
     border-bottom: 1px solid #fff;
     outline: none;
-    padding: 1px 146px 60px 125px;
+    padding: 14px 150px 32px 150px;
 }
 
 
@@ -613,7 +840,7 @@ input[type="email"] {
     margin-bottom: 30px;
     padding: 0;
     outline: none;
-    width: 100%;
+    width: 50%;
     height: 37px;
 
 }
@@ -639,12 +866,14 @@ input[type="submit"] {
     text-transform: uppercase
 }
 
-/*блок 7*/
+/*блок 9*/
+
+
 .moments {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 96%;
+    width: 95%;
     height: 32.5em;
     margin: 32px;
     background: #FFFFEF;
@@ -653,10 +882,11 @@ input[type="submit"] {
 .moments_block {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 96%;
     height: 24.5em;
-    margin: 32px;
+    padding: 70px;
     background: #FFFFEF;
 
 }
@@ -665,7 +895,7 @@ input[type="submit"] {
     display: flex;
 }
 
-.moments_title {
+.moments_block-title {
     display: flex;
     color: #56593D;
     text-align: center;
@@ -677,19 +907,23 @@ input[type="submit"] {
     /* 129.6% */
 }
 
-.cards-fruit {
+.moments_block-fruit {
     display: flex;
-    height: 328px;
+    width: 81.5%;
+    height: 20.5em;
     padding: 7.797px 0px 0;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
 
-.cards-all {
+.moments_block-fruit-all {
     display: flex;
-    width: 300px;
-    height: 300px;
+    flex-wrap: wrap;
+    width: 18em;
+    height: 15em;
 
 }
 
