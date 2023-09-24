@@ -245,6 +245,9 @@
 
     div.button_sign {
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 22em;
     }
 }
 
@@ -819,7 +822,6 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    background: #FFFFEF;
     width: 65%;
     height: 37px;
     border: none;
